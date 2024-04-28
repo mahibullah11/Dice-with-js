@@ -5,5 +5,5 @@ function rollDice(){
     
     scoreEle.innerText = score;
   
-    diceimg.src = `dice-${score}.jpeg`;
+    diceimg.src = `dice-${score}.png`;
 }  
