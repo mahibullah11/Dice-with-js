@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f388fc;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #dcfc88;
+    padding: 100px;
+} 
+wrapper img{
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: #46e8fa;
+    color: rgb(17, 1, 1);
+    margin-top: 20px;
+}
